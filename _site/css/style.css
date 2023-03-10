@@ -1,0 +1,36 @@
+* {
+    cursor: auto!important;
+}
+
+a {
+    cursor: pointer!important;
+}
+
+@font-face {
+    font-family: 'PressStart2P';
+    src: url('/assets/PressStart2P-Regular.ttf') format('truetype');
+}
+
+/* html,
+body {
+    background-color: #f9d9db!important;
+}
+
+.nes-container {
+    background-color: #fff;
+} */
+
+h1, h2, p, ul {
+    font-family: 'PressStart2P';
+}
+
+.container {
+    max-width: 980px;
+    margin: 0 auto;
+    margin-top: 0px;
+    margin-top: 150px;
+}
+
+.topic {
+    margin-bottom: 3rem;
+}

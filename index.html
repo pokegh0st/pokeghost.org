@@ -1,0 +1,38 @@
+---
+layout: default
+title: Welcome to Pokeghost's homepage!
+---
+
+<section class="topic">
+	<h2>~Welcome to Pokeghost's homepage~</h2>
+	<div class="nes-balloon from-left">
+		<p>
+			<i class="nes-icon is-large heart" style="float: left; padding-left: 2rem"></i>
+			Hii~ My name is Pokéghost! I am the president of the Discord Literature Club. I like
+			poetry, music and art. Sometimes I do fun little things for my friends and people on the
+			Internet! You can read more about things I do below.
+		</p>
+		<p>
+			You can find me on <a href="https://twitter.com/pok3ghost" target="_blank">Twitter</a> and <a
+				href="https://github.com/pokegh0st" target="_blank">GitHub</a>.
+		</p>
+	</div>
+
+</section>
+</section>
+<section class="topic">
+	<div class="nes-container with-title is-centered">
+		<p class="title">My Projects</p>
+		<h2><a href="/literature-club">Discord Literature Club</a></h2>
+		<h2><a href="https://github.com/pokegh0st/pokebook" target="_blank">Poke!Book</a></h2>
+		<h2>Poke!Do (coming soon)</h2>
+	</div>
+</section>
+<section class="topic">
+	<div class="nes-container with-title is-centered">
+		<p class="title">Selected Poems</p>
+		{% for post in site.posts %}
+		<p><a href="{{ post.url }}">{{ post.title }}</a></p>
+		{% endfor %}
+	</div>
+</section>
